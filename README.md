@@ -35,3 +35,9 @@ The Lot 3 t-test calculates a p-value of 0.04, which is lower than the alpha val
 ![image](https://user-images.githubusercontent.com/109561408/200987377-f6647830-679e-4fab-9d72-51399aed7b1b.png)
 
 ## Study Design: MechaCar vs Competition
+
+In order to compare MechaCar to its competitors, we need to test some metrics for both MechaCar and the competitors to compare. I believe that we could compare safety rating between MechaCar and competitors. It would be in our best interests to break down the study into comparable car models as well, such as comparing minivans with each other, SUVs with each other, sedans with each other, etc., rather than comparing a MechaCar minivan to a competitor sedan. This reduces variability and will lead to more accurate results.
+
+The null hypothesis for this study is MechaCar and competitor cars have the same safety rating. The alternative hypothesis is that MechaCar has higher safety rating than competitor cars. In order to test if we reject our null hypothesis, we could use a multiple linear regression test to to determine the impact that various variables have on the safety ratings. This will allow researchers to see how probable this study is to real life as well as how significant the impact is. 
+
+We would need additional data to run this statistical test. We would need safety rating data for different MechaCar models as well as safety rating data for competitors' comparable models. Additional data could be vehicle weight, mpg, year and safety features. 
